@@ -139,7 +139,7 @@ $(window).scroll(function () {
 $(window).scroll(function () {
   const scrolled = $(this).scrollTop();
   console.log(scrolled);
-  if ($(window).width() > 600) {
+  if ($(window).width() > 600 && $(window).width() < 1200) {
     if (scrolled > 200) {
       $('.title-second').addClass('animasi-1');
     }
