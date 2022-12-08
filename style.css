@@ -1,0 +1,1204 @@
+html {
+  background-color: #03071e;
+  height: 5000px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #303030;
+  width: 100vw;
+  background-color: #03071e;
+  overflow-x: hidden;
+}
+
+nav {
+  width: 100vw;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  color: #fff;
+  z-index: 9999;
+}
+
+nav .brand {
+  font-weight: bold;
+}
+
+nav div.nav-group {
+  display: flex;
+  padding: 50px;
+}
+
+a.menu-item {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.5s ease;
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+}
+
+a.menu-item:hover {
+  border-bottom: 3px solid #303030;
+}
+
+.nav-group.hamburger {
+  display: none;
+}
+
+.menus .hamburger {
+  display: none;
+}
+
+.menus .hamburger div:first-of-type {
+  transform: rotate(-45deg) translate(-3px, 2px);
+}
+.menus .hamburger div:last-of-type {
+  transform: rotate(45deg) translate(-3px, -2px);
+}
+
+.hamburger div {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background: #303030;
+  margin: 5px;
+}
+
+.nav-group.menus .menu-item:not(:first-child) {
+  margin-left: 1.4rem;
+}
+
+.first-component {
+  background-color: #03071e;
+}
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat'); */
+
+.container {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container p {
+  font-size: 2rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+}
+.container p span.typed-text {
+  font-weight: normal;
+  color: #fca311;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+
+.name {
+  padding-top: 300px;
+  padding-left: 200px;
+  font-size: 2rem;
+  font-weight: bold;
+
+  color: white;
+}
+
+.img-first-component {
+  background-color: #fca311;
+  height: 100vh;
+}
+.text-first-component {
+  animation: fadeIn 1s both;
+}
+.img-first-component img {
+  animation: fadeIn 1s 0.5s both;
+}
+.photo-first {
+  margin-left: -250px;
+  margin-top: 20px;
+  width: 500px;
+}
+/* end of component first */
+
+/* component second */
+.second-component {
+  background-color: #03071e;
+}
+.about {
+  height: 100vh;
+  background-color: #fca311;
+}
+
+.title-second {
+  margin-top: 200px;
+  margin-left: 180px;
+  color: white;
+  font-size: 96px;
+}
+.biodata {
+  color: white;
+  padding-top: 80px;
+  padding-left: 50px;
+}
+.biodata h6 {
+  font-size: 22px;
+}
+.isi {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.image {
+  width: 400px;
+  margin-top: -50px;
+  margin-left: 200px;
+}
+/* end of second component */
+
+/* third component */
+.skill {
+  background-color: #03071e;
+  height: 100vh;
+}
+.title-skill {
+  color: white;
+  position: absolute;
+  margin-left: 43vw;
+  margin-top: 10vh;
+  font-size: 3.5rem;
+}
+.cover-1 {
+  position: absolute;
+  width: 950px;
+  height: 5px;
+  margin-top: 300px;
+  margin-left: 20vw;
+  border-radius: 15px;
+
+  background-color: #ffffff;
+}
+.persentase-1 {
+  width: 95%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: red;
+}
+.text-judul {
+  color: white;
+  position: absolute;
+  margin-top: 240px;
+  margin-left: 320px;
+  font-size: 2rem;
+}
+.cover-2 {
+  position: absolute;
+  width: 950px;
+  height: 5px;
+  margin-top: 390px;
+  margin-left: 20vw;
+  border-radius: 15px;
+
+  background-color: #ffffff;
+}
+.persentase-2 {
+  width: 93%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #0500ff;
+}
+.text-judul-2 {
+  color: white;
+  position: absolute;
+  margin-top: 330px;
+  margin-left: 320px;
+  font-size: 2rem;
+}
+.cover-3 {
+  position: absolute;
+  width: 950px;
+  height: 5px;
+  margin-top: 480px;
+  margin-left: 20vw;
+  border-radius: 15px;
+
+  background-color: #ffffff;
+}
+.persentase-3 {
+  width: 67%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #faff00;
+}
+.text-judul-3 {
+  color: white;
+  position: absolute;
+  margin-top: 420px;
+  margin-left: 320px;
+  font-size: 2rem;
+}
+.cover-4 {
+  position: absolute;
+  width: 950px;
+  height: 5px;
+  margin-top: 570px;
+  margin-left: 20vw;
+  border-radius: 15px;
+
+  background-color: #ffffff;
+}
+.persentase-4 {
+  width: 93%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #cc00ff;
+}
+.text-judul-4 {
+  color: white;
+  position: absolute;
+  margin-top: 510px;
+  margin-left: 320px;
+  font-size: 2rem;
+}
+.cover-5 {
+  position: absolute;
+  width: 950px;
+  height: 5px;
+  margin-top: 670px;
+  margin-left: 20vw;
+  border-radius: 15px;
+
+  background-color: #ffffff;
+}
+.persentase-5 {
+  width: 57%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #00c2ff;
+}
+.text-judul-5 {
+  color: white;
+  position: absolute;
+  margin-top: 610px;
+  margin-left: 320px;
+  font-size: 2rem;
+}
+.cover-6 {
+  position: absolute;
+  width: 960px;
+  height: 5px;
+  margin-top: 770px;
+  margin-left: 20vw;
+  border-radius: 15px;
+
+  background-color: #ffffff;
+}
+.persentase-6 {
+  width: 65%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #24ff00;
+}
+.text-judul-6 {
+  color: white;
+  position: absolute;
+  margin-top: 710px;
+  margin-left: 320px;
+  font-size: 2rem;
+}
+.cover-7 {
+  position: absolute;
+  width: 960px;
+  height: 5px;
+  margin-top: 870px;
+  margin-left: 20vw;
+  border-radius: 15px;
+
+  background-color: #ffffff;
+}
+.persentase-7 {
+  width: 75%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #ff7a00;
+}
+.text-judul-7 {
+  color: white;
+  position: absolute;
+  margin-top: 810px;
+  margin-left: 320px;
+  font-size: 2rem;
+}
+/* end of third component */
+/* fourth component */
+.title-fourth {
+  color: white;
+  margin-left: 42vw;
+
+  padding-bottom: 100px;
+}
+.project-img {
+  padding-top: 100px;
+}
+.fourth-component {
+  height: 100vh;
+  padding-top: 200px;
+  background-color: #03071e;
+}
+.image-fourth {
+  display: flex;
+  margin-left: 40px;
+}
+.row {
+  justify-content: center;
+}
+.img3 {
+  margin-top: 50px;
+}
+
+.modal-color {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.size-img {
+  width: 1000px;
+  padding-left: 100px;
+}
+
+.img-modals-sm {
+  width: 450px;
+  margin-left: -105px;
+}
+/* end of component fourth */
+
+/* component fifth */
+.fifth-component {
+  margin-top: 500px;
+  position: absolute;
+}
+.sertifikat {
+  padding-top: 100px;
+}
+.title-fifth {
+  background-color: #03071e;
+
+  color: white;
+
+  padding-left: 40vw;
+}
+.certificate {
+  margin-left: 26vw;
+  margin-top: 100px;
+  width: 200px;
+}
+/* end of component fifth */
+/* component sixth  */
+.sixth-component {
+  position: absolute;
+  margin-top: 1300px;
+  width: 100vw;
+  height: 400px;
+  background-image: url('img/freelance1.png');
+  background-size: cover;
+  /* background-position: -0px 20px; */
+}
+.freelancing {
+  margin-left: 400px;
+  margin-top: 150px;
+  color: white;
+  font-size: 64px;
+}
+.freelancing span {
+  color: #fca311;
+}
+/* end of component sixth */
+/* component seventh */
+.seventh-component {
+  position: absolute;
+  height: 100vh;
+  margin-top: 1900px;
+}
+
+.form {
+  background-color: #fca311;
+  width: 600px;
+  height: 700px;
+  border-radius: 15px;
+  padding-top: 20px;
+  margin-left: 500px;
+}
+.photo-1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 150px;
+}
+.photo-1 img {
+  width: 200px;
+  margin-left: 50px;
+  margin-top: -20px;
+}
+.story {
+  height: 300px;
+  width: 90%;
+  margin-left: 27px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+.story h2 {
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+.btn {
+  margin-left: 240px;
+  margin-top: 10px;
+}
+.title-contact {
+  margin-left: 700px;
+  margin-bottom: 100px;
+  color: white;
+  margin-top: 100px;
+}
+.title-contact span {
+  color: #fca311;
+}
+
+.img-tablet {
+  width: 480px;
+  margin-left: -7px;
+}
+@keyframes blink {
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
+}
+
+.animasi-1 {
+  animation: fadeIn 2s both;
+}
+.hidden {
+  display: none;
+}
+
+.animasi-2 {
+  animation: fadeInRight 2s both;
+}
+
+@keyframes skillsHtml {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 95%;
+  }
+}
+@keyframes skillsCss {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 93%;
+  }
+}
+@keyframes skillsJs {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 67%;
+  }
+}
+@keyframes skillsBootstrap {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 93%;
+  }
+}
+@keyframes skillsReact {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 57%;
+  }
+}
+@keyframes skillsjQuery {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 65%;
+  }
+}
+@keyframes skillsUiUx {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 75%;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    color: white;
+  }
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes slideInDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    background-color: #03071e;
+  }
+  /* nav */
+  .menus.nav-group {
+    background-color: #fca311;
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+    margin: 0 !important;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 50vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.7s ease;
+  }
+
+  .menus.nav-group.show {
+    top: 0;
+  }
+
+  .menus.nav-group a {
+    font-size: 1.5rem;
+  }
+
+  .menus.nav-group a.menu-item:not(:first-child) {
+    margin-left: 0;
+    margin-top: 1.7rem;
+  }
+
+  .nav-group.hamburger {
+    display: block;
+  }
+
+  .menus .hamburger {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* first component */
+  html,
+  body {
+    background-color: #03071e;
+  }
+  .first-component {
+    background-image: url('img/haziq.png');
+    background-size: 500px;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+  }
+  .container p span.typed-text {
+    font-weight: bold;
+    color: #fca311;
+  }
+
+  .name {
+    text-align: center;
+    margin-left: -160px;
+
+    margin-top: -50px;
+    width: 500px;
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 5px 7px rgba(0, 0, 0, 0.5);
+  }
+  .container p {
+    text-shadow: 0 0 5px 7px rgba(0, 0, 0, 0.5);
+    margin-top: -80px;
+    font-size: 1.5rem;
+  }
+
+  .img-first-component {
+    display: none;
+  }
+  /* end of component one */
+
+  /* component two */
+  .about {
+    background-color: #03071e;
+  }
+  .title-second {
+    font-size: 4rem;
+    margin-left: 100px;
+  }
+
+  .text-biodata {
+    margin-left: -20px;
+  }
+  .isi {
+    position: absolute;
+    margin-left: 280px;
+    margin-top: -100px;
+  }
+  .text-biodata h6,
+  .isi h6 {
+    font-size: 1rem;
+  }
+
+  .image {
+    display: none;
+  }
+  /* end of second component */
+  /* third component */
+  .title-skill {
+    color: white;
+    position: absolute;
+    margin-left: 34vw;
+    margin-top: 10vh;
+    font-size: 2rem;
+  }
+  .cover-1 {
+    position: absolute;
+    width: 310px;
+    height: 5px;
+    margin-top: 200px;
+    margin-left: 10vw;
+    border-radius: 15px;
+
+    background-color: #ffffff;
+  }
+  .persentase-1 {
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: red;
+  }
+  .text-judul {
+    color: white;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 40px;
+    font-size: 1rem;
+  }
+  .cover-2 {
+    position: absolute;
+    width: 310px;
+    height: 5px;
+    margin-top: 250px;
+    margin-left: 10vw;
+    border-radius: 15px;
+
+    background-color: #ffffff;
+  }
+  .persentase-2 {
+    width: 93%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #0500ff;
+  }
+  .text-judul-2 {
+    color: white;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 40px;
+    font-size: 1rem;
+  }
+  .cover-3 {
+    position: absolute;
+    width: 310px;
+    height: 5px;
+    margin-top: 300px;
+    margin-left: 10vw;
+    border-radius: 15px;
+
+    background-color: #ffffff;
+  }
+  .persentase-3 {
+    width: 67%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #faff00;
+  }
+  .text-judul-3 {
+    color: white;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 40px;
+    font-size: 1rem;
+  }
+  .cover-4 {
+    position: absolute;
+    width: 310px;
+    height: 5px;
+    margin-top: 350px;
+    margin-left: 10vw;
+    border-radius: 15px;
+
+    background-color: #ffffff;
+  }
+  .persentase-4 {
+    width: 93%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #cc00ff;
+  }
+  .text-judul-4 {
+    color: white;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 40px;
+    font-size: 1rem;
+  }
+  .cover-5 {
+    position: absolute;
+    width: 310px;
+    height: 5px;
+    margin-top: 400px;
+    margin-left: 10vw;
+    border-radius: 15px;
+
+    background-color: #ffffff;
+  }
+  .persentase-5 {
+    width: 57%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #00c2ff;
+  }
+  .text-judul-5 {
+    color: white;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 40px;
+    font-size: 1rem;
+  }
+  .cover-6 {
+    position: absolute;
+    width: 310px;
+    height: 5px;
+    margin-top: 450px;
+    margin-left: 10vw;
+    border-radius: 15px;
+
+    background-color: #ffffff;
+  }
+  .persentase-6 {
+    width: 65%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #24ff00;
+  }
+  .text-judul-6 {
+    color: white;
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 40px;
+    font-size: 1rem;
+  }
+  .cover-7 {
+    position: absolute;
+    width: 310px;
+    height: 5px;
+    margin-top: 500px;
+    margin-left: 10vw;
+    border-radius: 15px;
+
+    background-color: #ffffff;
+  }
+  .persentase-7 {
+    width: 75%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #ff7a00;
+  }
+  .text-judul-7 {
+    color: white;
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 40px;
+    font-size: 1rem;
+  }
+  /* end of third component */
+  /* fifth component */
+  .fourth-component {
+    margin-top: -400px;
+  }
+  .title-fourth {
+    margin-left: 125px;
+  }
+  .image-fourth {
+    margin-left: 45px;
+  }
+  .img1,
+  .img2,
+  .img3 {
+    width: 300px;
+  }
+
+  .img2 {
+    margin-top: 50px;
+  }
+  .img-modal {
+    width: 90vw;
+    margin-left: -5px;
+  }
+  /* end of component fifth */
+  /* component sixth */
+  .title-fifth {
+    margin-top: -300px;
+    margin-left: -50px;
+  }
+  .certif {
+    width: 350px;
+    margin-left: -80px;
+  }
+  /* end of component sixth */
+  /* component seventh */
+  .sixth-component {
+    margin-top: 800px;
+  }
+  .freelancing {
+    color: white;
+    font-size: 3rem;
+    margin-top: 160px;
+    margin-left: 20px;
+  }
+
+  .seventh-component {
+    margin-top: 1200px;
+  }
+  .title-contact {
+    margin-left: 120px;
+  }
+  .form {
+    width: 350px;
+    height: 450px;
+    margin-left: 20px;
+  }
+  .photo-1 {
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+  }
+  .photo-1 img {
+    width: 130px;
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+  .story {
+    width: 90%;
+    height: 150px;
+  }
+  .story h2 {
+    font-size: 1rem;
+    margin-top: 0px;
+  }
+  .btn {
+    margin-left: 125px;
+  }
+}
+
+/* tablet */
+@media screen and ((min-width: 600px) and ( max-width: 1200px)) {
+  /* first component */
+  .img-first-component {
+    background-color: #fca311;
+    height: 100vh;
+  }
+  .name {
+    margin-left: -100px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .img-first-component img {
+    width: 700px;
+    margin-top: 50px;
+  }
+  /* end of component first */
+  .about {
+    /* width: 40vw; */
+    background-color: #03071e;
+  }
+  .title-second {
+    margin-left: 50px;
+  }
+  .text-biodata h6 {
+    font-size: 35px;
+  }
+  .isi {
+    width: 100%;
+  }
+  .isi h6 {
+    font-size: 25px;
+  }
+  /* skill */
+  .title-skill {
+    color: white;
+    position: absolute;
+    margin-left: 45vw;
+    margin-top: 10vh;
+    font-size: 2rem;
+  }
+  .cover-1 {
+    position: absolute;
+    width: 520px;
+    height: 7px;
+    margin-top: 200px;
+    margin-left: 20vw;
+    border-radius: 15px;
+
+    background-color: #ffffff;
+  }
+  .persentase-1 {
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: red;
+  }
+  .text-judul {
+    color: white;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 165px;
+    font-size: 1rem;
+  }
+  .cover-2 {
+    position: absolute;
+    width: 520px;
+    height: 7px;
+    margin-top: 250px;
+    margin-left: 20vw;
+    border-radius: 15px;
+
+    background-color: #ffffff;
+  }
+  .persentase-2 {
+    width: 93%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #0500ff;
+  }
+  .text-judul-2 {
+    color: white;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 165px;
+    font-size: 1rem;
+  }
+  .cover-3 {
+    position: absolute;
+    width: 520px;
+    height: 7px;
+    margin-top: 300px;
+    margin-left: 20vw;
+    border-radius: 15px;
+
+    background-color: #ffffff;
+  }
+  .persentase-3 {
+    width: 67%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #faff00;
+  }
+  .text-judul-3 {
+    color: white;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 165px;
+    font-size: 1rem;
+  }
+  .cover-4 {
+    position: absolute;
+    width: 520px;
+    height: 7px;
+    margin-top: 350px;
+    margin-left: 20vw;
+    border-radius: 15px;
+
+    background-color: #ffffff;
+  }
+  .persentase-4 {
+    width: 93%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #cc00ff;
+  }
+  .text-judul-4 {
+    color: white;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 165px;
+    font-size: 1rem;
+  }
+  .cover-5 {
+    position: absolute;
+    width: 520px;
+    height: 7px;
+    margin-top: 400px;
+    margin-left: 20vw;
+    border-radius: 15px;
+
+    background-color: #ffffff;
+  }
+  .persentase-5 {
+    width: 57%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #00c2ff;
+  }
+  .text-judul-5 {
+    color: white;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 165px;
+    font-size: 1rem;
+  }
+  .cover-6 {
+    position: absolute;
+    width: 520px;
+    height: 7px;
+    margin-top: 450px;
+    margin-left: 20vw;
+    border-radius: 15px;
+
+    background-color: #ffffff;
+  }
+  .persentase-6 {
+    width: 65%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #24ff00;
+  }
+  .text-judul-6 {
+    color: white;
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 165px;
+    font-size: 1rem;
+  }
+  .cover-7 {
+    position: absolute;
+    width: 520px;
+    height: 7px;
+    margin-top: 500px;
+    margin-left: 20vw;
+    border-radius: 15px;
+
+    background-color: #ffffff;
+  }
+  .persentase-7 {
+    width: 75%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #ff7a00;
+  }
+  .text-judul-7 {
+    color: white;
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 165px;
+    font-size: 1rem;
+  }
+  /* end of component skills */
+  /* project */
+  .fourth-component {
+    margin-top: -700px;
+  }
+  .img2 {
+    margin-top: 50px;
+  }
+  .title-fifth {
+    margin-left: -20px;
+  }
+
+  .certificate {
+    margin-left: 70px;
+  }
+
+  .freelancing {
+    margin-left: 180px;
+  }
+
+  .seventh-component {
+    margin-left: -400px;
+  }
+}
